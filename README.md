@@ -24,3 +24,13 @@
 | 데이터베이스 | SQL Server (ODBC)          |
 | 동기화 도구 | RapidXML + XML 기반 DSL     |
 | 라이브러리 | WinSock2, STL, ODBC         |
+
+## 2. 시스템 전체 구조
+
+![구조도 예시 삽입](docs/architecture.png)
+
+- `ServerService`: IOCP Core 및 Session 생명주기 관리  
+- `Listener`: AcceptEx 기반 클라이언트 연결 처리  
+- `Session`: 각 클라이언트와의 통신 담당  
+- `DBSynchronizer`: XML ↔ DB 스키마 자동화  
+- `ObjectPool`, `ThreadManager`: 메모리 및 멀티스레드 구조 지원
