@@ -27,8 +27,6 @@
 
 ## 2. 시스템 전체 구조
 
-![구조도 예시 삽입](docs/architecture.png)
-
 - `ServerService`: IOCP Core 및 Session 생명주기 관리  
 - `Listener`: AcceptEx 기반 클라이언트 연결 처리  
 - `Session`: 각 클라이언트와의 통신 담당  
