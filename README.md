@@ -13,7 +13,7 @@
   <img alt="Database" src="https://img.shields.io/badge/DB-SQL%20Server%20(ODBC)-lightgrey">
 </p>
 
-**작성자**: 장민석
+이 서버를 바탕으로 언리얼 엔진과 연동해서 실습한 프로젝트 : https://github.com/MinSeok0406/GameServer
 
 </div>
 
@@ -158,7 +158,5 @@
 ---
 
 ## 📚 출처
-**Inflearn** — [Rookiss | C++과 언리얼로 만드는 MMORPG 게임 개발 시리즈]  
-**Part 4: 게임 서버**
-
+**Inflearn** — [Rookiss | C++과 언리얼로 만드는 MMORPG 게임 개발 시리즈] Part 4: 게임 서버
 🔗 https://www.inflearn.com/course/%EC%96%B8%EB%A6%AC%EC%96%BC-3d-mmorpg-4
