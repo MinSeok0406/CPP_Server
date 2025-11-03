@@ -121,7 +121,7 @@ int main()
         auto sendBuffer = ClientPacketHandler::MakeSendBuffer(pkt);
 
         GSessionManager.Broadcast(sendBuffer);
-        this_thread::sleep_for(1s);
+        //this_thread::sleep_for(1s);
     }
 
     GThreadManager->Join();
